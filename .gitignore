@@ -1,0 +1,18 @@
+# Build output and downloaded dependencies
+build/work/
+build/cache/
+*.class
+*.jar
+*.dll
+*.zip
+jre/
+
+# Runtime logs written by the .bat scripts
+resultado-*.txt
+
+# Editors / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db

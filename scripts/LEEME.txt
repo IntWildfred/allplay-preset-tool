@@ -1,0 +1,25 @@
+﻿PRESETS NUEVOS PARA LA RADIO PANASONIC SC-PMX150
+
+Para qué sirve
+Este programa hace sonar en la radio cualquier emisora de internet, igual que lo hacía la antigua aplicación AllPlay Radio. Cuando la emisora suena, la guardas en un botón PRESET de la radio y queda grabada para siempre. No hay que instalar nada ni pagar nada.
+
+La primera vez
+1. Haz clic derecho en el archivo .zip y elige Extraer todo (Extract all). Por ejemplo, en C:\AllPlayTool.
+2. El computador y la radio deben estar en la misma red, y esa red debe estar marcada como red privada (Private network). Se cambia en Configuración (Settings), Red e Internet (Network & internet), tu red, Tipo de perfil de red (Network profile type): Privada (Private).
+3. Enciende la radio en modo NETWORK.
+4. Abre 1-BUSCAR-RADIO.bat. Debe aparecer una línea que empieza con Speaker y el nombre de tu radio.
+5. Si Windows muestra el aviso "Windows protegió su PC" (Windows protected your PC), toca Más información (More info) y luego Ejecutar de todas formas (Run anyway).
+6. Si el Firewall de Windows pregunta por "OpenJDK Platform binary", marca Redes privadas (Private networks) y toca Permitir acceso (Allow access). Luego cierra la ventana y abre de nuevo 1-BUSCAR-RADIO.bat.
+
+Cómo agregar una emisora
+1. Abre 3-PONER-RADIO-NUEVA.bat.
+2. Pega la dirección de la emisora. Debe empezar con http:// o https://. Las dos funcionan.
+3. Escribe el nombre de la emisora. La descripción y el logo son opcionales: si no los tienes, presiona Enter.
+4. Cuando la radio empiece a sonar, mantén apretado un botón PRESET libre durante 4 segundos.
+5. Para comprobar, cambia de fuente en la radio y vuelve a ese PRESET. Debe sonar la emisora nueva.
+
+Ver lo que suena
+2-VER-LO-QUE-SUENA.bat muestra el nombre y la dirección de lo que está sonando en la radio. Sirve, por ejemplo, para saber qué emisora tiene guardada un PRESET.
+
+Si no encuentra la radio
+Revisa que la radio esté encendida en modo NETWORK, que la red esté como privada (Private) y que el firewall permita "OpenJDK Platform binary" en Redes privadas (Private networks). Si cerraste el aviso del firewall sin permitir, ve a Panel de control (Control Panel), Firewall de Windows Defender, Permitir una aplicación (Allow an app), Cambiar configuración (Change settings), y marca "OpenJDK Platform binary" en la columna Privada (Private).
